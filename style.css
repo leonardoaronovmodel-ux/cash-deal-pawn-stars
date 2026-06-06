@@ -852,6 +852,18 @@ p {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .inventory-showcase {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .art-deal-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav {
     padding: 0 20px;
@@ -859,32 +871,47 @@ p {
   }
 
   .nav-links {
-    gap: 20px;
+    display: none;
   }
 
   .nav-link {
     font-size: 0.8rem;
   }
 
+  .hero {
+    padding-top: 70px;
+  }
+
   .hero-rolex {
-    width: 50%;
+    width: 40%;
     right: 5%;
+  }
+
+  .hero-content {
+    padding: 0 20px;
   }
 
   .featured-items {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .heritage {
+    padding: 40px 20px;
   }
 
   .heritage-stats {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
-  .modal {
-    padding: 40px 30px;
+  .inventory {
+    padding: 40px 20px;
   }
 
   .inventory-categories {
     gap: 10px;
+    flex-wrap: wrap;
   }
 
   .category-btn {
@@ -892,17 +919,107 @@ p {
     font-size: 0.85rem;
   }
 
-  .art-deal-gallery {
+  .inventory-showcase {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
   .art-of-deal {
-    padding: 60px 20px;
+    padding: 40px 20px;
+  }
+
+  .art-deal-headline {
+    font-size: 1.8rem;
   }
 
   .art-deal-copy {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+  }
+
+  .art-deal-gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .deal-card {
+    min-height: 200px;
+  }
+
+  .modal {
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    padding: 0 15px;
+  }
+
+  .nav-cta {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .hero-rolex {
+    width: 35%;
+  }
+
+  .featured-items {
+    gap: 15px;
+  }
+
+  .heritage-headline {
+    font-size: 1.5rem;
+  }
+
+  .inventory-headline {
+    font-size: 1.5rem;
+  }
+
+  .art-deal-headline {
+    font-size: 1.5rem;
+  }
+
+  .art-deal-gallery {
+    gap: 10px;
+  }
+
+  .deal-card {
+    min-height: 150px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .modal {
+    padding: 20px 15px;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
   }
 }
 
