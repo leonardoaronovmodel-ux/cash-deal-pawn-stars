@@ -764,6 +764,8 @@ p {
   max-width: 500px;
   width: 100%;
   position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(212, 175, 55, 0.1);
   animation: modalSlideIn var(--duration-medium) var(--ease-out);
 }
@@ -1016,6 +1018,37 @@ p {
 
   .modal {
     padding: 20px 15px;
+    max-height: calc(100vh - 40px);
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .offer-form {
+    gap: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 12px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .btn-full {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    margin-top: 10px;
   }
 
   .footer-section h4 {
