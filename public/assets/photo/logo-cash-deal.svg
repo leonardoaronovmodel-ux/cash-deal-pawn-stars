@@ -1,0 +1,9 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background for contrast (optional, can be removed for transparency) -->
+  <rect width="400" height="100" fill="transparent"/>
+
+  <!-- White text in Helvetica -->
+  <text x="200" y="65" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="bold" text-anchor="middle" fill="white" letter-spacing="2">
+    CASH DEAL PAWN STARS
+  </text>
+</svg>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASH DEAL PAWN STARS | Luxury Assets. Instant Liquidity.</title>
+  <meta name="description" content="Luxury watches, jewelry, and rare collectibles. Instant cash for high-value assets.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="#inventory" class="nav-link">Inventory</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#vault" class="nav-link">Vault</a>
+      </div>
+    </div>
+    <div class="nav-center">
+      <img src="/assets/photo/logo.png" alt="Logo" class="nav-logo-img">
+    </div>
+    <div class="nav-right">
+      <button class="nav-cta open-offer-modal">Get Offer</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <video class="bg-video" autoplay muted loop playsinline preload="auto">
+        <source src="/assets/photo/hero-shot.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text-bg">PAWN</div>
+      <div class="hero-details">
+        <h1 class="hero-title">
+          <span class="hero-line">Luxury Assets.</span>
+          <span class="hero-line">Instant Liquidity.</span>
+        </h1>
+        <p class="hero-subtitle">Watches. Jewelry. Rare Collectibles.</p>
+        <div class="hero-cta-group">
+          <button class="btn btn-primary open-offer-modal">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <img src="/assets/photo/magnific__a-luxury-product-hero-shot-of-a-rolex-oyster-perpe__32707.jpeg" alt="Luxury Rolex" class="hero-rolex">
+  </section>
+
+  <!-- Featured Collateral Section -->
+  <section class="featured-collateral">
+    <div class="featured-bg"></div>
+    <div class="featured-overlay"></div>
+    <div class="featured-content">
+      <h2 class="featured-headline">
+        <span>Bring Value.</span>
+        <span>Leave With Cash.</span>
+      </h2>
+      <p class="featured-copy">Luxury watches, gold jewelry, designer goods, and rare assets evaluated with precision.</p>
+      <div class="featured-items">
+        <div class="featured-item">
+          <img src="/assets/photo/magnific__a-luxury-product-hero-shot-of-a-rolex-oyster-perpe__32707.jpeg" alt="Presidential Rolex" class="featured-render">
+        </div>
+        <div class="featured-item">
+          <img src="/assets/photo/two tone cuban -2.png" alt="Diamond Cuban Link" class="featured-render">
+        </div>
+        <div class="featured-item">
+          <img src="/assets/photo/QUEEN RARE COLLECTABLE .png" alt="Rare Collectible" class="featured-render">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heritage/Trust Section -->
+  <section class="heritage">
+    <div class="heritage-bg"></div>
+    <div class="heritage-content">
+      <div class="heritage-eyebrow">Luxury Collateral Experience</div>
+      <h2 class="heritage-headline">
+        <span>Built On Trust.</span>
+        <span>Powered By Value.</span>
+      </h2>
+      <p class="heritage-copy">Luxury collateral experience designed around high-value assets, instant liquidity, and modern resale culture.</p>
+      <p class="heritage-copy-secondary">Every item tells a story — from Presidential Rolex Day-Dates to diamond Cuban links and rare collectibles.</p>
+      <div class="heritage-stats">
+        <div class="stat">
+          <div class="stat-number">$25M+</div>
+          <div class="stat-label">Evaluated</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">50K+</div>
+          <div class="stat-label">Transactions</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Inquiries</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inventory Showcase -->
+  <section class="inventory" id="inventory">
+    <div class="inventory-bg"></div>
+    <div class="inventory-overlay"></div>
+    <div class="inventory-content">
+      <div class="inventory-eyebrow">Rare Inventory Rotating Weekly</div>
+      <h2 class="inventory-headline">
+        <span>Beyond</span>
+        <span>The Ordinary.</span>
+      </h2>
+      <p class="inventory-copy">Luxury timepieces, gold, diamonds, collectibles, and high-value assets.</p>
+
+      <div class="inventory-categories">
+        <button class="category-btn active" data-category="watches">Luxury Watches</button>
+        <button class="category-btn" data-category="jewelry">Jewelry</button>
+        <button class="category-btn" data-category="assets">Rare Assets</button>
+        <button class="category-btn" data-category="estates">Estates</button>
+        <button class="category-btn" data-category="metals">Precious Metals</button>
+      </div>
+
+      <div class="inventory-showcase">
+        <div class="showcase-item active" data-category="watches">
+          <img src="/assets/photo/magnific__a-luxury-product-hero-shot-of-a-rolex-oyster-perpe__32707.jpeg" alt="Rolex Day-Date" class="showcase-render">
+          <h3>Presidential Rolex</h3>
+        </div>
+        <div class="showcase-item" data-category="watches">
+          <img src="/assets/photo/Patek Philippe Nautilus-2.png" alt="Patek Philippe Nautilus" class="showcase-render">
+          <h3>Patek Philippe Nautilus</h3>
+        </div>
+        <div class="showcase-item" data-category="watches">
+          <img src="/assets/photo/Audemars Piguet Royal Oak-2.png" alt="Audemars Piguet Royal Oak" class="showcase-render">
+          <h3>Audemars Piguet Royal Oak</h3>
+        </div>
+        <div class="showcase-item" data-category="jewelry">
+          <img src="/assets/photo/diamond-ring.png" alt="Diamond Ring" class="showcase-render">
+          <h3>Diamond Ring</h3>
+        </div>
+        <div class="showcase-item" data-category="jewelry">
+          <img src="/assets/photo/diamond-cuban-chain.png" alt="Diamond Cuban Chain" class="showcase-render">
+          <h3>Diamond Cuban Chain</h3>
+        </div>
+        <div class="showcase-item" data-category="assets">
+          <img src="/assets/photo/gold-bars.png" alt="Gold Bars" class="showcase-render">
+          <h3>Gold Bars</h3>
+        </div>
+        <div class="showcase-item" data-category="assets">
+          <img src="/assets/photo/exotic-valuables.png" alt="Exotic Valuables" class="showcase-render">
+          <h3>Exotic Valuables</h3>
+        </div>
+        <div class="showcase-item" data-category="estates">
+          <img src="/assets/photo/estate-collection.png" alt="Estate Collection" class="showcase-render">
+          <h3>Estate Collection</h3>
+        </div>
+        <div class="showcase-item" data-category="estates">
+          <img src="/assets/photo/vintage-estate.png" alt="Vintage Estate" class="showcase-render">
+          <h3>Vintage Estate</h3>
+        </div>
+        <div class="showcase-item" data-category="metals">
+          <img src="/assets/photo/gold-bullion.png" alt="Gold Bullion" class="showcase-render">
+          <h3>Gold Bullion</h3>
+        </div>
+        <div class="showcase-item" data-category="metals">
+          <img src="/assets/photo/silver-coins.png" alt="Silver Coins" class="showcase-render">
+          <h3>Silver Coins</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Art of the Deal Section -->
+  <section class="art-of-deal" id="process">
+    <div class="art-deal-content">
+      <h2 class="art-deal-headline">THE ART OF THE DEAL</h2>
+      <p class="art-deal-copy">Authentication. Evaluation. Negotiation. Instant Offers. Deal. Every transaction handled with precision.</p>
+
+      <div class="art-deal-gallery">
+        <div class="deal-card">
+          <img src="/assets/photo/art-deal-1-auth.png" alt="#1 Authentication">
+        </div>
+        <div class="deal-card">
+          <img src="/assets/photo/art-deal-2-eval.png" alt="#2 Evaluation">
+        </div>
+        <div class="deal-card">
+          <img src="/assets/photo/art-deal-3-negot.png" alt="#3 Negotiation">
+        </div>
+        <div class="deal-card">
+          <img src="/assets/photo/art-deal-4-offers.png" alt="#4 Instant Offers">
+        </div>
+        <div class="deal-card">
+          <img src="/assets/photo/art-deal-5-deal.png" alt="#5 Deal">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vault Showcase -->
+  <section class="vault" id="vault">
+    <div class="vault-bg">
+      <video class="vault-video" autoplay muted loop playsinline preload="auto">
+        <source src="/assets/photo/PAWN SAFE.mp4" type="video/mp4">
+      </video>
+      <div class="vault-overlay"></div>
+    </div>
+    <div class="vault-content">
+      <h2 class="vault-headline">
+        <span>Beyond</span>
+        <span>The Ordinary.</span>
+      </h2>
+      <p class="vault-copy">Luxury watches, diamonds, collectibles, and rare assets presented through a cinematic luxury experience.</p>
+      <button class="btn btn-primary" onclick="document.getElementById('inventory').scrollIntoView({behavior: 'smooth'})">View Latest Inventory</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Inventory</h4>
+        <ul>
+          <li><a href="#inventory">Watches</a></li>
+          <li><a href="#inventory">Jewelry</a></li>
+          <li><a href="#inventory">Gold</a></li>
+          <li><a href="#inventory">Collectibles</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#" class="open-offer-modal">Instant Offers</a></li>
+          <li><a href="#">Authentication</a></li>
+          <li><a href="#">Evaluations</a></li>
+          <li><a href="#">Consignment</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://instagram.com/" target="_blank">Instagram</a></li>
+          <li><a href="https://tiktok.com/" target="_blank">TikTok</a></li>
+          <li><a href="https://youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p><a href="mailto:cashdealpawnstars@gmail.com">cashdealpawnstars@gmail.com</a></p>
+        <p><a href="tel:+14246538512">+1 (424) 653-8512</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 CASH DEAL PAWN STARS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Offer Modal -->
+  <div class="modal-overlay" id="offer-modal">
+    <div class="modal">
+      <button class="modal-close close-offer-modal">&times;</button>
+      <h2 class="modal-title">Get an Instant Offer</h2>
+      <form class="offer-form" name="offer-form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="offer-form">
+
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first_name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last_name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="item-type">Item Type</label>
+          <select id="item-type" name="item_type" required>
+            <option value="">Select...</option>
+            <option value="watch">Watch</option>
+            <option value="jewelry">Jewelry</option>
+            <option value="gold">Gold</option>
+            <option value="collectible">Collectible</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="value">Estimated Value</label>
+          <input type="text" id="value" name="value" placeholder="$">
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Get Offer</button>
+      </form>
+    </div>
+  </div>
+<script>
+  window.addEventListener('load', () => {
+    const videos = document.querySelectorAll('video');
+
+    videos.forEach((video) => {
+      video.play().catch(() => {});
+    });
+  });
+</script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
