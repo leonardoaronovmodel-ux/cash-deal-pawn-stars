@@ -260,25 +260,27 @@ function initOfferModal() {
     openBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
         modal.classList.add('active');
+        document.body.classList.add('modal-open');
       });
     });
 
     closeBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
         modal.classList.remove('active');
+        document.body.classList.remove('modal-open');
       });
     });
 
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
         modal.classList.remove('active');
+        document.body.classList.remove('modal-open');
       }
     });
 
     if (form) {
       form.addEventListener('submit', (e) => {
-        // Netlify handles form submission
-        // You can add custom logic here if needed
+        // Formspree handles form submission
       });
     }
   } catch (error) {
