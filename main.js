@@ -257,24 +257,29 @@ function initOfferModal() {
     const closeBtns = document.querySelectorAll('.close-offer-modal');
     const form = document.querySelector('.offer-form');
 
+    function openModal() {
+      modal.classList.add('active');
+      document.body.classList.add('modal-open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.classList.remove('active');
+      document.body.classList.remove('modal-open');
+      document.body.style.overflow = 'auto';
+    }
+
     openBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        modal.classList.add('active');
-        document.body.classList.add('modal-open');
-      });
+      btn.addEventListener('click', openModal);
     });
 
     closeBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        modal.classList.remove('active');
-        document.body.classList.remove('modal-open');
-      });
+      btn.addEventListener('click', closeModal);
     });
 
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
-        modal.classList.remove('active');
-        document.body.classList.remove('modal-open');
+        closeModal();
       }
     });
 
