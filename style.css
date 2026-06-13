@@ -889,7 +889,7 @@ p {
   }
 
   .hero-rolex {
-    width: 40%;
+    width: 25%;
     right: 5%;
   }
 
@@ -953,13 +953,40 @@ p {
   }
 
   .modal {
-    padding: 30px 20px;
-    margin: 20px;
+    padding: 25px 18px;
+    margin: 10px;
     border-radius: 12px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
   }
 
   .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .btn-full {
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 0.95rem;
   }
 
   .footer-content {
@@ -988,7 +1015,7 @@ p {
   }
 
   .hero-rolex {
-    width: 35%;
+    width: 18%;
   }
 
   .featured-items {
